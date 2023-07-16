@@ -4,7 +4,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node index",
+    "start": "node index.js",
     "dev": "nodemon index"
   },
   "keywords": [],
@@ -22,5 +22,8 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.22"
+  },
+  "engines": {
+    "node": ">=14.20.1"
   }
 }
